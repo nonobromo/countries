@@ -24,7 +24,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/components/home"
-                className="btn btn-outline-primary"
+                className="btn btn-outline-primary fs-6"
               >
                 Home
               </NavLink>
@@ -33,7 +33,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/pages/allCountries"
-                className="btn btn-outline-primary"
+                className="btn btn-outline-primary fs-6"
               >
                 All
               </NavLink>
@@ -41,36 +41,36 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/pages/northAmerica"
-                className="btn btn-outline-primary"
+                className="btn btn-outline-primary fs-6"
               >
                 North America
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/pages/europe" className="btn btn-outline-secondary">
+              <NavLink to="/pages/europe" className="btn btn-outline-primary">
                 Europe
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/pages/asia" className="btn btn-outline-warning">
+              <NavLink to="/pages/asia" className="btn btn-outline-primary">
                 Asia
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/pages/africa" className="btn btn-outline-success">
+              <NavLink to="/pages/africa" className="btn btn-outline-primary">
                 Africa
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 to="/pages/southAmerica"
-                className="btn btn-outline-danger"
+                className="btn btn-outline-primary"
               >
                 South America
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/pages/oceania" className="btn btn-outline-info">
+              <NavLink to="/pages/oceania" className="btn btn-outline-primary">
                 Oceania
               </NavLink>
             </li>
